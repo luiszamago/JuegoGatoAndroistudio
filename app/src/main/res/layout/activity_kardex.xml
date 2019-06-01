@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kardex">
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="379dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="23dp"
+        android:text="1X5  SCC1010  GRAFICACION          4    79    1    5   1   2018"
+        app:layout_constraintBottom_toTopOf="@+id/textView48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="379dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="21dp"
+        android:text="1X3  ACF0904  CALCULO VECTOR   5    90    4    3   1   2017"
+        app:layout_constraintBottom_toTopOf="@+id/textView42"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="377dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:text=" 1X1  ACF0901  CALC DIFEREN        5    77    1    1   1   2016"
+        app:layout_constraintBottom_toTopOf="@+id/textView52"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="387dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:text="3X2  AEC1008  CONTAB FINAN         4    91    4    2   2   2017"
+        app:layout_constraintBottom_toTopOf="@+id/textView54"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="382dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:text="2X5  AEC1034  FUND TELECOM        4    83    2    5   1   2018"
+        app:layout_constraintBottom_toTopOf="@+id/textView53"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="381dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:text="2X2  SCD1020  PROG ORIEN OBJ     5    84    1    2   2   2017"
+        app:layout_constraintBottom_toTopOf="@+id/textView50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="387dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:text="2X1  SCD1008  FUND DE PROG        5    89    1    1   1   2016"
+        app:layout_constraintBottom_toTopOf="@+id/textView47"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="390dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="35dp"
+        android:text="3X5  AEC1061  SIST OPER                     4    78    2    5   1   2018"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="387dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="21dp"
+        android:text="2X3  AED1026  ESTRUCT DATOS       5    78    5    3   1   2017"
+        app:layout_constraintBottom_toTopOf="@+id/textView46"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="15dp"
+        android:text="Cve. Oficial       Materia           Cred. Cal. Acr. Sem. Per. Año "
+        app:layout_constraintBottom_toTopOf="@+id/textView44"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="371dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:text="1X2           CALCULO INTEGRA          5    81    1    2   2   2017"
+        app:layout_constraintBottom_toTopOf="@+id/textView43"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="388dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:text="3X1  AEF1041  TALLER DE ETICA      4    88    1    1   1   2016"
+        app:layout_constraintBottom_toTopOf="@+id/textView45"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="377dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="9dp"
+        android:text="3X3  SCC1005  CULT EMP                 4    78    5    3   1   2017"
+        app:layout_constraintBottom_toTopOf="@+id/textView49"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="18dp"
+        android:onClick="onClick"
+        android:text="Atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/textView51"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintStart_toStartOf="parent" /><![CDATA[
+
+
+
+
+
+    tools:layout_editor_absoluteX="18dp"
+    tools:layout_editor_absoluteY="221dp"/>
+
+
+]]>
+</android.support.constraint.ConstraintLayout>
